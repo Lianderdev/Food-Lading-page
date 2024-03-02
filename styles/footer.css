@@ -1,0 +1,22 @@
+footer{
+    background-color: var( --color-primary-2);
+}
+
+#footer-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8% 24px 8%;
+    align-items: center;
+}
+
+.copy{
+    color: #1d1d1d;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px){
+    #footer-items{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
